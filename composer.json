@@ -1,0 +1,25 @@
+{
+  "name": "buuum/viewsbuilder",
+  "type": "library",
+  "description": "Views Builder",
+  "homepage": "https://github.com/buuum/ViewsBuilder",
+  "keywords": [
+    "php",
+    "views"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alfons Martinez",
+      "email": "alfonsmartinezparra@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ViewsBuilder\\": "src/ViewsBuilder"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  }
+}
